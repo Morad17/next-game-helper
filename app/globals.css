@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+:root{
+  --primary-red: #e1463b;
+  --footer-gray: #c9c9c9
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+/*----Main Nav----*/
+.main-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: var(--primary-red);
+  color: white;
+  height: 5vh;
+  font-size: 1.4rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  margin-left: 1vw;
+}
+.nav-links-logo{
+  display: flex;
+  flex-direction: row;
+}
+.nav-home-links{
+  margin: 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nav-links{
+  margin: 0 .7vw;
+}
+
+.nav-user-links{
+  margin: 0;
 }
