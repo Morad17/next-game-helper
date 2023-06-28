@@ -39,3 +39,16 @@
 .nav-user-links{
   margin: 0;
 }
+
+/*----Game-Card---*/
+
+.game-card{
+  text-align: center;
+  width: 12.5vw;
+}
+.game-title{
+
+}
+.game-image{
+  display: inline-block;
+}
