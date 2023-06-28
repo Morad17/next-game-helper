@@ -8,7 +8,7 @@ const GameCard = () => {
             <h2>Game Name</h2>
         </div>
         <div className="game-image">
-            <Image width={180} height={270} src="/assets/images/assassins-creed-origins.jpeg"/>
+            <Image width={317.4} height={437} src="/assets/images/assassins-creed-origins.jpeg"/>
         </div>
         <div className="game-tags">
             <div className="">Ps4</div>

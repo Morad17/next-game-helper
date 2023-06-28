@@ -7,6 +7,7 @@ import GameCard from '@/components/GameCard'
 export default function Home() {
   return (
     <div className="">
+      <h1 className="all-games-title">All Games</h1>
       <GameCard />
     </div>
   )

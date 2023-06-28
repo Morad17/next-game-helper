@@ -40,15 +40,30 @@
   margin: 0;
 }
 
+/*----All Games Page---*/
+
+.all-games-title{
+  text-align: center;
+  font-size: 3rem;
+}
+
 /*----Game-Card---*/
 
 .game-card{
   text-align: center;
-  width: 12.5vw;
+  width: 14vw;
+  background-color: #316f8c;
+  color: white;
+  margin: 1vh 1vw;
 }
 .game-title{
 
 }
 .game-image{
   display: inline-block;
+}
+.game-tags{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
